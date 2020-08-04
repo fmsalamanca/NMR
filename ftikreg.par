@@ -1,0 +1,22 @@
+9A_DQ_rd06__80C.txt     FILENAME
+0             INVMODE (invert norm. DQ data: 0=yes, 1=no (0 is recommended))
+1             FUNCMODE (0=Gauss Kernel, 1=BaumMaxFit Kernel)
+0.2           ERRORBEGIN
+0.001          ERROREND
+25            ERRORSTEPS
+0.6054312546954953       CUT  (0.45 is recommended for Gauss Kernel) 
+320           NS   (number of points for result axis, max. 400!)
+0.E-00        SMIN (Dres min.)
+1.E+00        SMAX (**Dres max, adapted to exp. data, mostly in kHz!)
+1             DISMOD (axis spacing: 1=lin, 2=log)
+0             M (base line fitting: 0=no BL, 1=with BL)
+1             NE (no. of equations = 1!)
+12            ERRMOD (absolute=x2)
+221           REGMOD (positivity=2xx; determine lambda=x2x; xx3?)
+1.E-06        LAMBDA (reg.parameter, irrelevant for REGMOD=x2x)
+2             INFMOD (screen output type)
+-10.          LAMBST (recommended default)
+1.            LAMBSP (recommended default)
+12.           LAMBRA (recommended default)
+1.E-08        LAMBPR (recommended default)
+200           LAMBIT (recommended default)
